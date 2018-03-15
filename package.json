@@ -29,12 +29,18 @@
     "test": "jest",
     "update-snapshots": "jest --updateSnapshot",
     "prebuild": "npm test",
-    "build": "babel ./src -d lib --ignore '__tests__' && gulp styles:package copy:package",
-    "prepublish-to-npm": "git pull && npm run build && git add . && git commit -m 'Prepare for publishing'",
-    "publish-to-npm": "(git pull origin master && npm version patch && git push origin master && npm publish && git push --tags)",
-    "postpublish-to-npm": "npm run changelog && git add . && git commit -m 'Updating changelog' && git push origin master",
-    "prepublish-to-gh-pages": "node --harmony ./node_modules/gulp/bin/gulp prepublish && npm run build-storybook",
-    "publish-to-gh-pages": "node --harmony ./node_modules/gulp/bin/gulp publish",
+    "build":
+      "babel ./src -d lib --ignore '__tests__' && gulp styles:package copy:package",
+    "prepublish-to-npm":
+      "git pull && npm run build && git add . && git commit -m 'Prepare for publishing'",
+    "publish-to-npm":
+      "(git pull origin master && npm version patch && git push origin master && npm publish && git push --tags)",
+    "postpublish-to-npm":
+      "npm run changelog && git add . && git commit -m 'Updating changelog' && git push origin master",
+    "prepublish-to-gh-pages":
+      "node --harmony ./node_modules/gulp/bin/gulp prepublish && npm run build-storybook",
+    "publish-to-gh-pages":
+      "node --harmony ./node_modules/gulp/bin/gulp publish",
     "storybook": "start-storybook -p 9001 -s ./src -c .storybook",
     "build-storybook": "build-storybook -s ./src -o ./dist/storybook",
     "changelog": "node ./generate-changelog.js"
@@ -88,14 +94,13 @@
     "watchify": "^2.1.1"
   },
   "jest": {
-    "unmockedModulePathPatterns": [
-      "node_modules"
-    ],
+    "unmockedModulePathPatterns": ["node_modules"],
     "rootDir": "src"
   },
   "dependencies": {
     "classnames": "^2.2.5",
     "prop-types": "^15.5.8",
-    "react-easy-swipe": "^0.0.13"
+    "react-easy-swipe": "^0.0.13",
+    "react-swipeable": "^4.2.0"
   }
 }

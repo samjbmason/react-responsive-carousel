@@ -21,120 +21,127 @@ exports[`Slider Snapshots center mode 1`] = `
       className="slider-wrapper axis-horizontal"
       style={Object {}}
     >
-      <ul
-        className="slider animated"
-        onMouseDown={[Function]}
+      <div
         onTouchEnd={[Function]}
         onTouchStart={[Function]}
-        style={
-          Object {
-            "MozTransform": "translate3d(0%,0,0)",
-            "MozTransitionDuration": "350ms",
-            "MsTransform": "translate3d(0%,0,0)",
-            "MsTransitionDuration": "350ms",
-            "OTransform": "translate3d(0%,0,0)",
-            "OTransitionDuration": "350ms",
-            "WebkitTransform": "translate3d(0%,0,0)",
-            "WebkitTransitionDuration": "350ms",
-            "msTransform": "translate3d(0%,0,0)",
-            "msTransitionDuration": "350ms",
-            "transform": "translate3d(0%,0,0)",
-            "transitionDuration": "350ms",
-          }
-        }
       >
-        <li
-          className="slide selected"
-          onClick={[Function]}
+        <div
+          className="slider animated"
+          onMouseDown={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          selectedItem={0}
           style={
             Object {
-              "minWidth": "80%",
+              "MozTransform": "translate3d(0%,0,0)",
+              "MozTransitionDuration": "350ms",
+              "MsTransform": "translate3d(0%,0,0)",
+              "MsTransitionDuration": "350ms",
+              "OTransform": "translate3d(0%,0,0)",
+              "OTransitionDuration": "350ms",
+              "WebkitTransform": "translate3d(0%,0,0)",
+              "WebkitTransitionDuration": "350ms",
+              "msTransform": "translate3d(0%,0,0)",
+              "msTransitionDuration": "350ms",
+              "transform": "translate3d(0%,0,0)",
+              "transitionDuration": "350ms",
             }
           }
         >
-          <img
-            src="assets/1.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-          style={
-            Object {
-              "minWidth": "80%",
+          <li
+            className="slide selected"
+            onClick={[Function]}
+            style={
+              Object {
+                "minWidth": "80%",
+              }
             }
-          }
-        >
-          <img
-            src="assets/2.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-          style={
-            Object {
-              "minWidth": "80%",
+          >
+            <img
+              src="assets/1.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+            style={
+              Object {
+                "minWidth": "80%",
+              }
             }
-          }
-        >
-          <img
-            src="assets/3.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-          style={
-            Object {
-              "minWidth": "80%",
+          >
+            <img
+              src="assets/2.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+            style={
+              Object {
+                "minWidth": "80%",
+              }
             }
-          }
-        >
-          <img
-            src="assets/4.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-          style={
-            Object {
-              "minWidth": "80%",
+          >
+            <img
+              src="assets/3.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+            style={
+              Object {
+                "minWidth": "80%",
+              }
             }
-          }
-        >
-          <img
-            src="assets/5.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-          style={
-            Object {
-              "minWidth": "80%",
+          >
+            <img
+              src="assets/4.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+            style={
+              Object {
+                "minWidth": "80%",
+              }
             }
-          }
-        >
-          <img
-            src="assets/6.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-          style={
-            Object {
-              "minWidth": "80%",
+          >
+            <img
+              src="assets/5.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+            style={
+              Object {
+                "minWidth": "80%",
+              }
             }
-          }
-        >
-          <img
-            src="assets/7.jpeg"
-          />
-        </li>
-      </ul>
+          >
+            <img
+              src="assets/6.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+            style={
+              Object {
+                "minWidth": "80%",
+              }
+            }
+          >
+            <img
+              src="assets/7.jpeg"
+            />
+          </li>
+        </div>
+      </div>
     </div>
     <button
       className="control-arrow control-next"
@@ -197,86 +204,93 @@ exports[`Slider Snapshots center mode 1`] = `
         onClick={[Function]}
         type="button"
       />
-      <ul
-        className="thumbs animated"
-        onMouseDown={[Function]}
+      <div
         onTouchEnd={[Function]}
         onTouchStart={[Function]}
-        style={
-          Object {
-            "MozTransform": "translate3d(NaNpx,0,0)",
-            "MozTransitionDuration": "350ms",
-            "MsTransform": "translate3d(NaNpx,0,0)",
-            "MsTransitionDuration": "350ms",
-            "OTransform": "translate3d(NaNpx,0,0)",
-            "OTransitionDuration": "350ms",
-            "WebkitTransform": "translate3d(NaNpx,0,0)",
-            "WebkitTransitionDuration": "350ms",
-            "msTransform": "translate3d(NaNpx,0,0)",
-            "msTransitionDuration": "350ms",
-            "transform": "translate3d(NaNpx,0,0)",
-            "transitionDuration": "350ms",
-          }
-        }
       >
-        <li
-          className="thumb"
-          onClick={[Function]}
+        <ul
+          className="thumbs animated"
+          onMouseDown={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          selectedItem={0}
+          style={
+            Object {
+              "MozTransform": "translate3d(NaNpx,0,0)",
+              "MozTransitionDuration": "350ms",
+              "MsTransform": "translate3d(NaNpx,0,0)",
+              "MsTransitionDuration": "350ms",
+              "OTransform": "translate3d(NaNpx,0,0)",
+              "OTransitionDuration": "350ms",
+              "WebkitTransform": "translate3d(NaNpx,0,0)",
+              "WebkitTransitionDuration": "350ms",
+              "msTransform": "translate3d(NaNpx,0,0)",
+              "msTransitionDuration": "350ms",
+              "transform": "translate3d(NaNpx,0,0)",
+              "transitionDuration": "350ms",
+            }
+          }
         >
-          <img
-            onLoad={[Function]}
-            src="assets/1.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/2.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/3.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/4.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/5.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/6.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/7.jpeg"
-          />
-        </li>
-      </ul>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              onLoad={[Function]}
+              src="assets/1.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/2.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/3.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/4.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/5.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/6.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/7.jpeg"
+            />
+          </li>
+        </ul>
+      </div>
       <button
         className="control-arrow control-next control-disabled"
         onClick={[Function]}
@@ -308,85 +322,92 @@ exports[`Slider Snapshots custom class name 1`] = `
       className="slider-wrapper axis-horizontal"
       style={Object {}}
     >
-      <ul
-        className="slider animated"
-        onMouseDown={[Function]}
+      <div
         onTouchEnd={[Function]}
         onTouchStart={[Function]}
-        style={
-          Object {
-            "MozTransform": "translate3d(0%,0,0)",
-            "MozTransitionDuration": "350ms",
-            "MsTransform": "translate3d(0%,0,0)",
-            "MsTransitionDuration": "350ms",
-            "OTransform": "translate3d(0%,0,0)",
-            "OTransitionDuration": "350ms",
-            "WebkitTransform": "translate3d(0%,0,0)",
-            "WebkitTransitionDuration": "350ms",
-            "msTransform": "translate3d(0%,0,0)",
-            "msTransitionDuration": "350ms",
-            "transform": "translate3d(0%,0,0)",
-            "transitionDuration": "350ms",
-          }
-        }
       >
-        <li
-          className="slide selected"
-          onClick={[Function]}
+        <div
+          className="slider animated"
+          onMouseDown={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          selectedItem={0}
+          style={
+            Object {
+              "MozTransform": "translate3d(0%,0,0)",
+              "MozTransitionDuration": "350ms",
+              "MsTransform": "translate3d(0%,0,0)",
+              "MsTransitionDuration": "350ms",
+              "OTransform": "translate3d(0%,0,0)",
+              "OTransitionDuration": "350ms",
+              "WebkitTransform": "translate3d(0%,0,0)",
+              "WebkitTransitionDuration": "350ms",
+              "msTransform": "translate3d(0%,0,0)",
+              "msTransitionDuration": "350ms",
+              "transform": "translate3d(0%,0,0)",
+              "transitionDuration": "350ms",
+            }
+          }
         >
-          <img
-            src="assets/1.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/2.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/3.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/4.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/5.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/6.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/7.jpeg"
-          />
-        </li>
-      </ul>
+          <li
+            className="slide selected"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/1.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/2.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/3.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/4.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/5.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/6.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/7.jpeg"
+            />
+          </li>
+        </div>
+      </div>
     </div>
     <button
       className="control-arrow control-next"
@@ -449,86 +470,93 @@ exports[`Slider Snapshots custom class name 1`] = `
         onClick={[Function]}
         type="button"
       />
-      <ul
-        className="thumbs animated"
-        onMouseDown={[Function]}
+      <div
         onTouchEnd={[Function]}
         onTouchStart={[Function]}
-        style={
-          Object {
-            "MozTransform": "translate3d(NaNpx,0,0)",
-            "MozTransitionDuration": "350ms",
-            "MsTransform": "translate3d(NaNpx,0,0)",
-            "MsTransitionDuration": "350ms",
-            "OTransform": "translate3d(NaNpx,0,0)",
-            "OTransitionDuration": "350ms",
-            "WebkitTransform": "translate3d(NaNpx,0,0)",
-            "WebkitTransitionDuration": "350ms",
-            "msTransform": "translate3d(NaNpx,0,0)",
-            "msTransitionDuration": "350ms",
-            "transform": "translate3d(NaNpx,0,0)",
-            "transitionDuration": "350ms",
-          }
-        }
       >
-        <li
-          className="thumb"
-          onClick={[Function]}
+        <ul
+          className="thumbs animated"
+          onMouseDown={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          selectedItem={0}
+          style={
+            Object {
+              "MozTransform": "translate3d(NaNpx,0,0)",
+              "MozTransitionDuration": "350ms",
+              "MsTransform": "translate3d(NaNpx,0,0)",
+              "MsTransitionDuration": "350ms",
+              "OTransform": "translate3d(NaNpx,0,0)",
+              "OTransitionDuration": "350ms",
+              "WebkitTransform": "translate3d(NaNpx,0,0)",
+              "WebkitTransitionDuration": "350ms",
+              "msTransform": "translate3d(NaNpx,0,0)",
+              "msTransitionDuration": "350ms",
+              "transform": "translate3d(NaNpx,0,0)",
+              "transitionDuration": "350ms",
+            }
+          }
         >
-          <img
-            onLoad={[Function]}
-            src="assets/1.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/2.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/3.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/4.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/5.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/6.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/7.jpeg"
-          />
-        </li>
-      </ul>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              onLoad={[Function]}
+              src="assets/1.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/2.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/3.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/4.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/5.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/6.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/7.jpeg"
+            />
+          </li>
+        </ul>
+      </div>
       <button
         className="control-arrow control-next control-disabled"
         onClick={[Function]}
@@ -560,85 +588,92 @@ exports[`Slider Snapshots custom width 1`] = `
       className="slider-wrapper axis-horizontal"
       style={Object {}}
     >
-      <ul
-        className="slider animated"
-        onMouseDown={[Function]}
+      <div
         onTouchEnd={[Function]}
         onTouchStart={[Function]}
-        style={
-          Object {
-            "MozTransform": "translate3d(0%,0,0)",
-            "MozTransitionDuration": "350ms",
-            "MsTransform": "translate3d(0%,0,0)",
-            "MsTransitionDuration": "350ms",
-            "OTransform": "translate3d(0%,0,0)",
-            "OTransitionDuration": "350ms",
-            "WebkitTransform": "translate3d(0%,0,0)",
-            "WebkitTransitionDuration": "350ms",
-            "msTransform": "translate3d(0%,0,0)",
-            "msTransitionDuration": "350ms",
-            "transform": "translate3d(0%,0,0)",
-            "transitionDuration": "350ms",
-          }
-        }
       >
-        <li
-          className="slide selected"
-          onClick={[Function]}
+        <div
+          className="slider animated"
+          onMouseDown={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          selectedItem={0}
+          style={
+            Object {
+              "MozTransform": "translate3d(0%,0,0)",
+              "MozTransitionDuration": "350ms",
+              "MsTransform": "translate3d(0%,0,0)",
+              "MsTransitionDuration": "350ms",
+              "OTransform": "translate3d(0%,0,0)",
+              "OTransitionDuration": "350ms",
+              "WebkitTransform": "translate3d(0%,0,0)",
+              "WebkitTransitionDuration": "350ms",
+              "msTransform": "translate3d(0%,0,0)",
+              "msTransitionDuration": "350ms",
+              "transform": "translate3d(0%,0,0)",
+              "transitionDuration": "350ms",
+            }
+          }
         >
-          <img
-            src="assets/1.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/2.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/3.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/4.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/5.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/6.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/7.jpeg"
-          />
-        </li>
-      </ul>
+          <li
+            className="slide selected"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/1.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/2.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/3.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/4.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/5.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/6.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/7.jpeg"
+            />
+          </li>
+        </div>
+      </div>
     </div>
     <button
       className="control-arrow control-next"
@@ -701,86 +736,93 @@ exports[`Slider Snapshots custom width 1`] = `
         onClick={[Function]}
         type="button"
       />
-      <ul
-        className="thumbs animated"
-        onMouseDown={[Function]}
+      <div
         onTouchEnd={[Function]}
         onTouchStart={[Function]}
-        style={
-          Object {
-            "MozTransform": "translate3d(NaNpx,0,0)",
-            "MozTransitionDuration": "350ms",
-            "MsTransform": "translate3d(NaNpx,0,0)",
-            "MsTransitionDuration": "350ms",
-            "OTransform": "translate3d(NaNpx,0,0)",
-            "OTransitionDuration": "350ms",
-            "WebkitTransform": "translate3d(NaNpx,0,0)",
-            "WebkitTransitionDuration": "350ms",
-            "msTransform": "translate3d(NaNpx,0,0)",
-            "msTransitionDuration": "350ms",
-            "transform": "translate3d(NaNpx,0,0)",
-            "transitionDuration": "350ms",
-          }
-        }
       >
-        <li
-          className="thumb"
-          onClick={[Function]}
+        <ul
+          className="thumbs animated"
+          onMouseDown={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          selectedItem={0}
+          style={
+            Object {
+              "MozTransform": "translate3d(NaNpx,0,0)",
+              "MozTransitionDuration": "350ms",
+              "MsTransform": "translate3d(NaNpx,0,0)",
+              "MsTransitionDuration": "350ms",
+              "OTransform": "translate3d(NaNpx,0,0)",
+              "OTransitionDuration": "350ms",
+              "WebkitTransform": "translate3d(NaNpx,0,0)",
+              "WebkitTransitionDuration": "350ms",
+              "msTransform": "translate3d(NaNpx,0,0)",
+              "msTransitionDuration": "350ms",
+              "transform": "translate3d(NaNpx,0,0)",
+              "transitionDuration": "350ms",
+            }
+          }
         >
-          <img
-            onLoad={[Function]}
-            src="assets/1.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/2.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/3.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/4.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/5.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/6.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/7.jpeg"
-          />
-        </li>
-      </ul>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              onLoad={[Function]}
+              src="assets/1.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/2.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/3.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/4.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/5.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/6.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/7.jpeg"
+            />
+          </li>
+        </ul>
+      </div>
       <button
         className="control-arrow control-next control-disabled"
         onClick={[Function]}
@@ -812,85 +854,92 @@ exports[`Slider Snapshots default 1`] = `
       className="slider-wrapper axis-horizontal"
       style={Object {}}
     >
-      <ul
-        className="slider animated"
-        onMouseDown={[Function]}
+      <div
         onTouchEnd={[Function]}
         onTouchStart={[Function]}
-        style={
-          Object {
-            "MozTransform": "translate3d(0%,0,0)",
-            "MozTransitionDuration": "350ms",
-            "MsTransform": "translate3d(0%,0,0)",
-            "MsTransitionDuration": "350ms",
-            "OTransform": "translate3d(0%,0,0)",
-            "OTransitionDuration": "350ms",
-            "WebkitTransform": "translate3d(0%,0,0)",
-            "WebkitTransitionDuration": "350ms",
-            "msTransform": "translate3d(0%,0,0)",
-            "msTransitionDuration": "350ms",
-            "transform": "translate3d(0%,0,0)",
-            "transitionDuration": "350ms",
-          }
-        }
       >
-        <li
-          className="slide selected"
-          onClick={[Function]}
+        <div
+          className="slider animated"
+          onMouseDown={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          selectedItem={0}
+          style={
+            Object {
+              "MozTransform": "translate3d(0%,0,0)",
+              "MozTransitionDuration": "350ms",
+              "MsTransform": "translate3d(0%,0,0)",
+              "MsTransitionDuration": "350ms",
+              "OTransform": "translate3d(0%,0,0)",
+              "OTransitionDuration": "350ms",
+              "WebkitTransform": "translate3d(0%,0,0)",
+              "WebkitTransitionDuration": "350ms",
+              "msTransform": "translate3d(0%,0,0)",
+              "msTransitionDuration": "350ms",
+              "transform": "translate3d(0%,0,0)",
+              "transitionDuration": "350ms",
+            }
+          }
         >
-          <img
-            src="assets/1.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/2.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/3.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/4.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/5.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/6.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/7.jpeg"
-          />
-        </li>
-      </ul>
+          <li
+            className="slide selected"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/1.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/2.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/3.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/4.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/5.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/6.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/7.jpeg"
+            />
+          </li>
+        </div>
+      </div>
     </div>
     <button
       className="control-arrow control-next"
@@ -953,86 +1002,93 @@ exports[`Slider Snapshots default 1`] = `
         onClick={[Function]}
         type="button"
       />
-      <ul
-        className="thumbs animated"
-        onMouseDown={[Function]}
+      <div
         onTouchEnd={[Function]}
         onTouchStart={[Function]}
-        style={
-          Object {
-            "MozTransform": "translate3d(NaNpx,0,0)",
-            "MozTransitionDuration": "350ms",
-            "MsTransform": "translate3d(NaNpx,0,0)",
-            "MsTransitionDuration": "350ms",
-            "OTransform": "translate3d(NaNpx,0,0)",
-            "OTransitionDuration": "350ms",
-            "WebkitTransform": "translate3d(NaNpx,0,0)",
-            "WebkitTransitionDuration": "350ms",
-            "msTransform": "translate3d(NaNpx,0,0)",
-            "msTransitionDuration": "350ms",
-            "transform": "translate3d(NaNpx,0,0)",
-            "transitionDuration": "350ms",
-          }
-        }
       >
-        <li
-          className="thumb"
-          onClick={[Function]}
+        <ul
+          className="thumbs animated"
+          onMouseDown={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          selectedItem={0}
+          style={
+            Object {
+              "MozTransform": "translate3d(NaNpx,0,0)",
+              "MozTransitionDuration": "350ms",
+              "MsTransform": "translate3d(NaNpx,0,0)",
+              "MsTransitionDuration": "350ms",
+              "OTransform": "translate3d(NaNpx,0,0)",
+              "OTransitionDuration": "350ms",
+              "WebkitTransform": "translate3d(NaNpx,0,0)",
+              "WebkitTransitionDuration": "350ms",
+              "msTransform": "translate3d(NaNpx,0,0)",
+              "msTransitionDuration": "350ms",
+              "transform": "translate3d(NaNpx,0,0)",
+              "transitionDuration": "350ms",
+            }
+          }
         >
-          <img
-            onLoad={[Function]}
-            src="assets/1.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/2.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/3.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/4.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/5.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/6.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/7.jpeg"
-          />
-        </li>
-      </ul>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              onLoad={[Function]}
+              src="assets/1.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/2.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/3.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/4.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/5.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/6.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/7.jpeg"
+            />
+          </li>
+        </ul>
+      </div>
       <button
         className="control-arrow control-next control-disabled"
         onClick={[Function]}
@@ -1064,85 +1120,92 @@ exports[`Slider Snapshots no arrows 1`] = `
       className="slider-wrapper axis-horizontal"
       style={Object {}}
     >
-      <ul
-        className="slider animated"
-        onMouseDown={[Function]}
+      <div
         onTouchEnd={[Function]}
         onTouchStart={[Function]}
-        style={
-          Object {
-            "MozTransform": "translate3d(0%,0,0)",
-            "MozTransitionDuration": "350ms",
-            "MsTransform": "translate3d(0%,0,0)",
-            "MsTransitionDuration": "350ms",
-            "OTransform": "translate3d(0%,0,0)",
-            "OTransitionDuration": "350ms",
-            "WebkitTransform": "translate3d(0%,0,0)",
-            "WebkitTransitionDuration": "350ms",
-            "msTransform": "translate3d(0%,0,0)",
-            "msTransitionDuration": "350ms",
-            "transform": "translate3d(0%,0,0)",
-            "transitionDuration": "350ms",
-          }
-        }
       >
-        <li
-          className="slide selected"
-          onClick={[Function]}
+        <div
+          className="slider animated"
+          onMouseDown={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          selectedItem={0}
+          style={
+            Object {
+              "MozTransform": "translate3d(0%,0,0)",
+              "MozTransitionDuration": "350ms",
+              "MsTransform": "translate3d(0%,0,0)",
+              "MsTransitionDuration": "350ms",
+              "OTransform": "translate3d(0%,0,0)",
+              "OTransitionDuration": "350ms",
+              "WebkitTransform": "translate3d(0%,0,0)",
+              "WebkitTransitionDuration": "350ms",
+              "msTransform": "translate3d(0%,0,0)",
+              "msTransitionDuration": "350ms",
+              "transform": "translate3d(0%,0,0)",
+              "transitionDuration": "350ms",
+            }
+          }
         >
-          <img
-            src="assets/1.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/2.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/3.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/4.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/5.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/6.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/7.jpeg"
-          />
-        </li>
-      </ul>
+          <li
+            className="slide selected"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/1.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/2.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/3.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/4.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/5.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/6.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/7.jpeg"
+            />
+          </li>
+        </div>
+      </div>
     </div>
     <button
       className="control-arrow control-next control-disabled"
@@ -1205,86 +1268,93 @@ exports[`Slider Snapshots no arrows 1`] = `
         onClick={[Function]}
         type="button"
       />
-      <ul
-        className="thumbs animated"
-        onMouseDown={[Function]}
+      <div
         onTouchEnd={[Function]}
         onTouchStart={[Function]}
-        style={
-          Object {
-            "MozTransform": "translate3d(NaNpx,0,0)",
-            "MozTransitionDuration": "350ms",
-            "MsTransform": "translate3d(NaNpx,0,0)",
-            "MsTransitionDuration": "350ms",
-            "OTransform": "translate3d(NaNpx,0,0)",
-            "OTransitionDuration": "350ms",
-            "WebkitTransform": "translate3d(NaNpx,0,0)",
-            "WebkitTransitionDuration": "350ms",
-            "msTransform": "translate3d(NaNpx,0,0)",
-            "msTransitionDuration": "350ms",
-            "transform": "translate3d(NaNpx,0,0)",
-            "transitionDuration": "350ms",
-          }
-        }
       >
-        <li
-          className="thumb"
-          onClick={[Function]}
+        <ul
+          className="thumbs animated"
+          onMouseDown={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          selectedItem={0}
+          style={
+            Object {
+              "MozTransform": "translate3d(NaNpx,0,0)",
+              "MozTransitionDuration": "350ms",
+              "MsTransform": "translate3d(NaNpx,0,0)",
+              "MsTransitionDuration": "350ms",
+              "OTransform": "translate3d(NaNpx,0,0)",
+              "OTransitionDuration": "350ms",
+              "WebkitTransform": "translate3d(NaNpx,0,0)",
+              "WebkitTransitionDuration": "350ms",
+              "msTransform": "translate3d(NaNpx,0,0)",
+              "msTransitionDuration": "350ms",
+              "transform": "translate3d(NaNpx,0,0)",
+              "transitionDuration": "350ms",
+            }
+          }
         >
-          <img
-            onLoad={[Function]}
-            src="assets/1.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/2.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/3.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/4.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/5.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/6.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/7.jpeg"
-          />
-        </li>
-      </ul>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              onLoad={[Function]}
+              src="assets/1.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/2.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/3.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/4.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/5.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/6.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/7.jpeg"
+            />
+          </li>
+        </ul>
+      </div>
       <button
         className="control-arrow control-next control-disabled"
         onClick={[Function]}
@@ -1318,85 +1388,92 @@ exports[`Slider Snapshots no indicators 1`] = `
       className="slider-wrapper axis-horizontal"
       style={Object {}}
     >
-      <ul
-        className="slider animated"
-        onMouseDown={[Function]}
+      <div
         onTouchEnd={[Function]}
         onTouchStart={[Function]}
-        style={
-          Object {
-            "MozTransform": "translate3d(0%,0,0)",
-            "MozTransitionDuration": "350ms",
-            "MsTransform": "translate3d(0%,0,0)",
-            "MsTransitionDuration": "350ms",
-            "OTransform": "translate3d(0%,0,0)",
-            "OTransitionDuration": "350ms",
-            "WebkitTransform": "translate3d(0%,0,0)",
-            "WebkitTransitionDuration": "350ms",
-            "msTransform": "translate3d(0%,0,0)",
-            "msTransitionDuration": "350ms",
-            "transform": "translate3d(0%,0,0)",
-            "transitionDuration": "350ms",
-          }
-        }
       >
-        <li
-          className="slide selected"
-          onClick={[Function]}
+        <div
+          className="slider animated"
+          onMouseDown={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          selectedItem={0}
+          style={
+            Object {
+              "MozTransform": "translate3d(0%,0,0)",
+              "MozTransitionDuration": "350ms",
+              "MsTransform": "translate3d(0%,0,0)",
+              "MsTransitionDuration": "350ms",
+              "OTransform": "translate3d(0%,0,0)",
+              "OTransitionDuration": "350ms",
+              "WebkitTransform": "translate3d(0%,0,0)",
+              "WebkitTransitionDuration": "350ms",
+              "msTransform": "translate3d(0%,0,0)",
+              "msTransitionDuration": "350ms",
+              "transform": "translate3d(0%,0,0)",
+              "transitionDuration": "350ms",
+            }
+          }
         >
-          <img
-            src="assets/1.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/2.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/3.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/4.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/5.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/6.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/7.jpeg"
-          />
-        </li>
-      </ul>
+          <li
+            className="slide selected"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/1.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/2.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/3.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/4.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/5.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/6.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/7.jpeg"
+            />
+          </li>
+        </div>
+      </div>
     </div>
     <button
       className="control-arrow control-next"
@@ -1420,86 +1497,93 @@ exports[`Slider Snapshots no indicators 1`] = `
         onClick={[Function]}
         type="button"
       />
-      <ul
-        className="thumbs animated"
-        onMouseDown={[Function]}
+      <div
         onTouchEnd={[Function]}
         onTouchStart={[Function]}
-        style={
-          Object {
-            "MozTransform": "translate3d(NaNpx,0,0)",
-            "MozTransitionDuration": "350ms",
-            "MsTransform": "translate3d(NaNpx,0,0)",
-            "MsTransitionDuration": "350ms",
-            "OTransform": "translate3d(NaNpx,0,0)",
-            "OTransitionDuration": "350ms",
-            "WebkitTransform": "translate3d(NaNpx,0,0)",
-            "WebkitTransitionDuration": "350ms",
-            "msTransform": "translate3d(NaNpx,0,0)",
-            "msTransitionDuration": "350ms",
-            "transform": "translate3d(NaNpx,0,0)",
-            "transitionDuration": "350ms",
-          }
-        }
       >
-        <li
-          className="thumb"
-          onClick={[Function]}
+        <ul
+          className="thumbs animated"
+          onMouseDown={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          selectedItem={0}
+          style={
+            Object {
+              "MozTransform": "translate3d(NaNpx,0,0)",
+              "MozTransitionDuration": "350ms",
+              "MsTransform": "translate3d(NaNpx,0,0)",
+              "MsTransitionDuration": "350ms",
+              "OTransform": "translate3d(NaNpx,0,0)",
+              "OTransitionDuration": "350ms",
+              "WebkitTransform": "translate3d(NaNpx,0,0)",
+              "WebkitTransitionDuration": "350ms",
+              "msTransform": "translate3d(NaNpx,0,0)",
+              "msTransitionDuration": "350ms",
+              "transform": "translate3d(NaNpx,0,0)",
+              "transitionDuration": "350ms",
+            }
+          }
         >
-          <img
-            onLoad={[Function]}
-            src="assets/1.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/2.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/3.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/4.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/5.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/6.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/7.jpeg"
-          />
-        </li>
-      </ul>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              onLoad={[Function]}
+              src="assets/1.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/2.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/3.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/4.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/5.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/6.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/7.jpeg"
+            />
+          </li>
+        </ul>
+      </div>
       <button
         className="control-arrow control-next control-disabled"
         onClick={[Function]}
@@ -1531,85 +1615,92 @@ exports[`Slider Snapshots no indicators 2`] = `
       className="slider-wrapper axis-horizontal"
       style={Object {}}
     >
-      <ul
-        className="slider animated"
-        onMouseDown={[Function]}
+      <div
         onTouchEnd={[Function]}
         onTouchStart={[Function]}
-        style={
-          Object {
-            "MozTransform": "translate3d(0%,0,0)",
-            "MozTransitionDuration": "350ms",
-            "MsTransform": "translate3d(0%,0,0)",
-            "MsTransitionDuration": "350ms",
-            "OTransform": "translate3d(0%,0,0)",
-            "OTransitionDuration": "350ms",
-            "WebkitTransform": "translate3d(0%,0,0)",
-            "WebkitTransitionDuration": "350ms",
-            "msTransform": "translate3d(0%,0,0)",
-            "msTransitionDuration": "350ms",
-            "transform": "translate3d(0%,0,0)",
-            "transitionDuration": "350ms",
-          }
-        }
       >
-        <li
-          className="slide selected"
-          onClick={[Function]}
+        <div
+          className="slider animated"
+          onMouseDown={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          selectedItem={0}
+          style={
+            Object {
+              "MozTransform": "translate3d(0%,0,0)",
+              "MozTransitionDuration": "350ms",
+              "MsTransform": "translate3d(0%,0,0)",
+              "MsTransitionDuration": "350ms",
+              "OTransform": "translate3d(0%,0,0)",
+              "OTransitionDuration": "350ms",
+              "WebkitTransform": "translate3d(0%,0,0)",
+              "WebkitTransitionDuration": "350ms",
+              "msTransform": "translate3d(0%,0,0)",
+              "msTransitionDuration": "350ms",
+              "transform": "translate3d(0%,0,0)",
+              "transitionDuration": "350ms",
+            }
+          }
         >
-          <img
-            src="assets/1.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/2.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/3.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/4.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/5.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/6.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/7.jpeg"
-          />
-        </li>
-      </ul>
+          <li
+            className="slide selected"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/1.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/2.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/3.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/4.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/5.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/6.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/7.jpeg"
+            />
+          </li>
+        </div>
+      </div>
     </div>
     <button
       className="control-arrow control-next"
@@ -1667,86 +1758,93 @@ exports[`Slider Snapshots no indicators 2`] = `
         onClick={[Function]}
         type="button"
       />
-      <ul
-        className="thumbs animated"
-        onMouseDown={[Function]}
+      <div
         onTouchEnd={[Function]}
         onTouchStart={[Function]}
-        style={
-          Object {
-            "MozTransform": "translate3d(NaNpx,0,0)",
-            "MozTransitionDuration": "350ms",
-            "MsTransform": "translate3d(NaNpx,0,0)",
-            "MsTransitionDuration": "350ms",
-            "OTransform": "translate3d(NaNpx,0,0)",
-            "OTransitionDuration": "350ms",
-            "WebkitTransform": "translate3d(NaNpx,0,0)",
-            "WebkitTransitionDuration": "350ms",
-            "msTransform": "translate3d(NaNpx,0,0)",
-            "msTransitionDuration": "350ms",
-            "transform": "translate3d(NaNpx,0,0)",
-            "transitionDuration": "350ms",
-          }
-        }
       >
-        <li
-          className="thumb"
-          onClick={[Function]}
+        <ul
+          className="thumbs animated"
+          onMouseDown={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          selectedItem={0}
+          style={
+            Object {
+              "MozTransform": "translate3d(NaNpx,0,0)",
+              "MozTransitionDuration": "350ms",
+              "MsTransform": "translate3d(NaNpx,0,0)",
+              "MsTransitionDuration": "350ms",
+              "OTransform": "translate3d(NaNpx,0,0)",
+              "OTransitionDuration": "350ms",
+              "WebkitTransform": "translate3d(NaNpx,0,0)",
+              "WebkitTransitionDuration": "350ms",
+              "msTransform": "translate3d(NaNpx,0,0)",
+              "msTransitionDuration": "350ms",
+              "transform": "translate3d(NaNpx,0,0)",
+              "transitionDuration": "350ms",
+            }
+          }
         >
-          <img
-            onLoad={[Function]}
-            src="assets/1.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/2.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/3.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/4.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/5.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/6.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/7.jpeg"
-          />
-        </li>
-      </ul>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              onLoad={[Function]}
+              src="assets/1.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/2.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/3.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/4.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/5.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/6.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/7.jpeg"
+            />
+          </li>
+        </ul>
+      </div>
       <button
         className="control-arrow control-next control-disabled"
         onClick={[Function]}
@@ -1778,85 +1876,92 @@ exports[`Slider Snapshots no thumbs 1`] = `
       className="slider-wrapper axis-horizontal"
       style={Object {}}
     >
-      <ul
-        className="slider animated"
-        onMouseDown={[Function]}
+      <div
         onTouchEnd={[Function]}
         onTouchStart={[Function]}
-        style={
-          Object {
-            "MozTransform": "translate3d(0%,0,0)",
-            "MozTransitionDuration": "350ms",
-            "MsTransform": "translate3d(0%,0,0)",
-            "MsTransitionDuration": "350ms",
-            "OTransform": "translate3d(0%,0,0)",
-            "OTransitionDuration": "350ms",
-            "WebkitTransform": "translate3d(0%,0,0)",
-            "WebkitTransitionDuration": "350ms",
-            "msTransform": "translate3d(0%,0,0)",
-            "msTransitionDuration": "350ms",
-            "transform": "translate3d(0%,0,0)",
-            "transitionDuration": "350ms",
-          }
-        }
       >
-        <li
-          className="slide selected"
-          onClick={[Function]}
+        <div
+          className="slider animated"
+          onMouseDown={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          selectedItem={0}
+          style={
+            Object {
+              "MozTransform": "translate3d(0%,0,0)",
+              "MozTransitionDuration": "350ms",
+              "MsTransform": "translate3d(0%,0,0)",
+              "MsTransitionDuration": "350ms",
+              "OTransform": "translate3d(0%,0,0)",
+              "OTransitionDuration": "350ms",
+              "WebkitTransform": "translate3d(0%,0,0)",
+              "WebkitTransitionDuration": "350ms",
+              "msTransform": "translate3d(0%,0,0)",
+              "msTransitionDuration": "350ms",
+              "transform": "translate3d(0%,0,0)",
+              "transitionDuration": "350ms",
+            }
+          }
         >
-          <img
-            src="assets/1.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/2.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/3.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/4.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/5.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/6.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/7.jpeg"
-          />
-        </li>
-      </ul>
+          <li
+            className="slide selected"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/1.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/2.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/3.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/4.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/5.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/6.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/7.jpeg"
+            />
+          </li>
+        </div>
+      </div>
     </div>
     <button
       className="control-arrow control-next"
@@ -2070,86 +2175,93 @@ exports[`Slider Snapshots swipeable false 1`] = `
         onClick={[Function]}
         type="button"
       />
-      <ul
-        className="thumbs animated"
-        onMouseDown={[Function]}
+      <div
         onTouchEnd={[Function]}
         onTouchStart={[Function]}
-        style={
-          Object {
-            "MozTransform": "translate3d(NaNpx,0,0)",
-            "MozTransitionDuration": "350ms",
-            "MsTransform": "translate3d(NaNpx,0,0)",
-            "MsTransitionDuration": "350ms",
-            "OTransform": "translate3d(NaNpx,0,0)",
-            "OTransitionDuration": "350ms",
-            "WebkitTransform": "translate3d(NaNpx,0,0)",
-            "WebkitTransitionDuration": "350ms",
-            "msTransform": "translate3d(NaNpx,0,0)",
-            "msTransitionDuration": "350ms",
-            "transform": "translate3d(NaNpx,0,0)",
-            "transitionDuration": "350ms",
-          }
-        }
       >
-        <li
-          className="thumb"
-          onClick={[Function]}
+        <ul
+          className="thumbs animated"
+          onMouseDown={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          selectedItem={0}
+          style={
+            Object {
+              "MozTransform": "translate3d(NaNpx,0,0)",
+              "MozTransitionDuration": "350ms",
+              "MsTransform": "translate3d(NaNpx,0,0)",
+              "MsTransitionDuration": "350ms",
+              "OTransform": "translate3d(NaNpx,0,0)",
+              "OTransitionDuration": "350ms",
+              "WebkitTransform": "translate3d(NaNpx,0,0)",
+              "WebkitTransitionDuration": "350ms",
+              "msTransform": "translate3d(NaNpx,0,0)",
+              "msTransitionDuration": "350ms",
+              "transform": "translate3d(NaNpx,0,0)",
+              "transitionDuration": "350ms",
+            }
+          }
         >
-          <img
-            onLoad={[Function]}
-            src="assets/1.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/2.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/3.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/4.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/5.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/6.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/7.jpeg"
-          />
-        </li>
-      </ul>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              onLoad={[Function]}
+              src="assets/1.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/2.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/3.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/4.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/5.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/6.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/7.jpeg"
+            />
+          </li>
+        </ul>
+      </div>
       <button
         className="control-arrow control-next control-disabled"
         onClick={[Function]}
@@ -2185,86 +2297,93 @@ exports[`Slider Snapshots vertical axis 1`] = `
         }
       }
     >
-      <ul
-        className="slider animated"
-        onMouseDown={[Function]}
+      <div
         onTouchEnd={[Function]}
         onTouchStart={[Function]}
-        style={
-          Object {
-            "MozTransform": "translate3d(0,0%,0)",
-            "MozTransitionDuration": "350ms",
-            "MsTransform": "translate3d(0,0%,0)",
-            "MsTransitionDuration": "350ms",
-            "OTransform": "translate3d(0,0%,0)",
-            "OTransitionDuration": "350ms",
-            "WebkitTransform": "translate3d(0,0%,0)",
-            "WebkitTransitionDuration": "350ms",
-            "height": undefined,
-            "msTransform": "translate3d(0,0%,0)",
-            "msTransitionDuration": "350ms",
-            "transform": "translate3d(0,0%,0)",
-            "transitionDuration": "350ms",
-          }
-        }
       >
-        <li
-          className="slide selected"
-          onClick={[Function]}
+        <div
+          className="slider animated"
+          onMouseDown={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          selectedItem={0}
+          style={
+            Object {
+              "MozTransform": "translate3d(0,0%,0)",
+              "MozTransitionDuration": "350ms",
+              "MsTransform": "translate3d(0,0%,0)",
+              "MsTransitionDuration": "350ms",
+              "OTransform": "translate3d(0,0%,0)",
+              "OTransitionDuration": "350ms",
+              "WebkitTransform": "translate3d(0,0%,0)",
+              "WebkitTransitionDuration": "350ms",
+              "height": undefined,
+              "msTransform": "translate3d(0,0%,0)",
+              "msTransitionDuration": "350ms",
+              "transform": "translate3d(0,0%,0)",
+              "transitionDuration": "350ms",
+            }
+          }
         >
-          <img
-            src="assets/1.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/2.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/3.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/4.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/5.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/6.jpeg"
-          />
-        </li>
-        <li
-          className="slide"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/7.jpeg"
-          />
-        </li>
-      </ul>
+          <li
+            className="slide selected"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/1.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/2.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/3.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/4.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/5.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/6.jpeg"
+            />
+          </li>
+          <li
+            className="slide"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/7.jpeg"
+            />
+          </li>
+        </div>
+      </div>
     </div>
     <button
       className="control-arrow control-next"
@@ -2327,86 +2446,93 @@ exports[`Slider Snapshots vertical axis 1`] = `
         onClick={[Function]}
         type="button"
       />
-      <ul
-        className="thumbs animated"
-        onMouseDown={[Function]}
+      <div
         onTouchEnd={[Function]}
         onTouchStart={[Function]}
-        style={
-          Object {
-            "MozTransform": "translate3d(NaNpx,0,0)",
-            "MozTransitionDuration": "350ms",
-            "MsTransform": "translate3d(NaNpx,0,0)",
-            "MsTransitionDuration": "350ms",
-            "OTransform": "translate3d(NaNpx,0,0)",
-            "OTransitionDuration": "350ms",
-            "WebkitTransform": "translate3d(NaNpx,0,0)",
-            "WebkitTransitionDuration": "350ms",
-            "msTransform": "translate3d(NaNpx,0,0)",
-            "msTransitionDuration": "350ms",
-            "transform": "translate3d(NaNpx,0,0)",
-            "transitionDuration": "350ms",
-          }
-        }
       >
-        <li
-          className="thumb"
-          onClick={[Function]}
+        <ul
+          className="thumbs animated"
+          onMouseDown={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          selectedItem={0}
+          style={
+            Object {
+              "MozTransform": "translate3d(NaNpx,0,0)",
+              "MozTransitionDuration": "350ms",
+              "MsTransform": "translate3d(NaNpx,0,0)",
+              "MsTransitionDuration": "350ms",
+              "OTransform": "translate3d(NaNpx,0,0)",
+              "OTransitionDuration": "350ms",
+              "WebkitTransform": "translate3d(NaNpx,0,0)",
+              "WebkitTransitionDuration": "350ms",
+              "msTransform": "translate3d(NaNpx,0,0)",
+              "msTransitionDuration": "350ms",
+              "transform": "translate3d(NaNpx,0,0)",
+              "transitionDuration": "350ms",
+            }
+          }
         >
-          <img
-            onLoad={[Function]}
-            src="assets/1.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/2.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/3.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/4.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/5.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/6.jpeg"
-          />
-        </li>
-        <li
-          className="thumb"
-          onClick={[Function]}
-        >
-          <img
-            src="assets/7.jpeg"
-          />
-        </li>
-      </ul>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              onLoad={[Function]}
+              src="assets/1.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/2.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/3.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/4.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/5.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/6.jpeg"
+            />
+          </li>
+          <li
+            className="thumb"
+            onClick={[Function]}
+          >
+            <img
+              src="assets/7.jpeg"
+            />
+          </li>
+        </ul>
+      </div>
       <button
         className="control-arrow control-next control-disabled"
         onClick={[Function]}

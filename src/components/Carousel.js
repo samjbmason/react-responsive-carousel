@@ -324,20 +324,21 @@ class Carousel extends Component {
         const initialBoundry = 0;
         const currentPosition = this.getPosition(this.state.selectedItem);
         const finalBoundry = this.getPosition(this.props.children.length - 1);
-        const axisDelta = isHorizontal ? deltaX : deltaY;
+        const axisDelta = isHorizontal ? deltaX * -1 : deltaY * -1;
         let handledDelta = axisDelta;
         // prevent user from swiping left out of boundaries
-        if (currentPosition === initialBoundry && axisDelta < 0) {
+        if (currentPosition === initialBoundry && axisDelta > 0) {
             handledDelta = 0;
         }
         // prevent user from swiping right out of boundaries
-        if (currentPosition === finalBoundry && axisDelta > 0) {
+        if (currentPosition === finalBoundry && axisDelta < 0) {
             handledDelta = 0;
         }
 
         const position =
             currentPosition + 100 / (this.state.itemSize / handledDelta) + "%";
-        // this.setPosition(position);
+
+        this.setPosition(position);
         // allows scroll if the swipe was within the tolerance
         const hasMoved = Math.abs(axisDelta) > this.props.swipeScrollTolerance;
         if (hasMoved && !this.state.cancelClick) {

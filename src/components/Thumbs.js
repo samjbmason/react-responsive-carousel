@@ -167,6 +167,7 @@ class Thumbs extends Component {
     };
 
     onSwiping = (e, deltaX, deltaY, absX, absY, velocity) => {
+        deltaX = deltaX * -1;
         const leftBoundry = 0;
         const list = ReactDOM.findDOMNode(this.itemList);
         const wrapperSize = list.clientWidth;
